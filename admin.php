@@ -42,6 +42,7 @@
                 echo '<th>' .  'Mail' . "</th>";
                 echo '<th>' .  'Téléphone' . "</th>";
                 echo '<th>' .  'Objet' . "</th>";
+                echo '<th>' .  'Message' . "</th>";
 
                 echo '</tr>';
                 echo '</thead>';
@@ -57,6 +58,7 @@
                     echo '<td>' . $row['Mail'] . "</td>";
                     echo '<td>' . $row['Phone'] . "</td>";
                     echo '<td>' . $row['Objet'] . "</td>";
+                    echo '<td style="word-wrap: break-word">' . $row['Message'] . "</td>";
                     
                     echo '</tr>';
                     echo '</tbody>';
